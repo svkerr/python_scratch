@@ -1,0 +1,37 @@
+For UTC of form:
+2012-09-24T21:41:15
+Use:
+(\w{4})-(\d{2})-(\d{2})(T)(\d{2}):(\d{2}):(\d{2})
+
+For an Arrakis log dump segregating all fields and partition of dates:
+([\w.]+),([\w.-]+),([\w]+),([\w]+),([\w.]+),([\d]+),([\w]+),([\d]+),(\w{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}),(\w{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}),(\w{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}),([\d,]+){2},([\d]+)
+1. qname
+2. hostname
+3. group
+4. owner
+5. job_name
+6. job_number
+7. account
+8. priority
+9. submission_time: year
+10. submission_time: month
+11. submission_time: day
+12. submission_time: hour
+13. submission_time: min
+14. submission_time: sec
+15. start_time: year
+16. start_time: month
+17. start_time: day
+18. start_time: hour
+19. start_time: min
+20. start_time: sec
+21. end_time: year
+22. end_time: month
+23. end_time: day
+24. end_time: hour
+25. end_time: min
+26. end_time: sec
+27. failed
+28. exit_status
+29. ru_wallclock
+
